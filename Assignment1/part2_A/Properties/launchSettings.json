@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Assignment1_2_A": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
