@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worksheet1", "Worksheet1\Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book3.10", "Book3.10\Book3.10.csproj", "{7D2D39CF-6056-4684-B3DA-FFCE23E461C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book3.14", "Book3.14\Book3.14.csproj", "{EB7F3E33-1063-4FDB-A9D3-98DE7E7697EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7D2D39CF-6056-4684-B3DA-FFCE23E461C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2D39CF-6056-4684-B3DA-FFCE23E461C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2D39CF-6056-4684-B3DA-FFCE23E461C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7F3E33-1063-4FDB-A9D3-98DE7E7697EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7F3E33-1063-4FDB-A9D3-98DE7E7697EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7F3E33-1063-4FDB-A9D3-98DE7E7697EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7F3E33-1063-4FDB-A9D3-98DE7E7697EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
