@@ -22,23 +22,28 @@ namespace ConsBMI
             {
                 try
                 {
-                    Console.WriteLine("Welcome to BMI calculator, what kind of unit system do you want to use? ('metric'/'english')");
-                    string unit_input = Console.ReadLine();
-
-                    switch (unit_input)
+                    bool answered = false;
+                    do
                     {
-                        case "metric": 
-                            unit = "metric";
-                            break;
-                        case "english":
-                            unit = "english";
-                            break;
-                        default:
-                            unit = "";
-                            Console.WriteLine("That is not a valid unit system.");
-                            break;
+                        Console.WriteLine("Welcome to BMI calculator, what kind of unit system do you want to use? ('metric'/'english')");
+                        string unit_input = Console.ReadLine();
+                        switch (unit_input)
+                        {
+                            case "metric":
+                                unit = "metric";
+                                answered = true;
+                                break;
+                            case "english":
+                                unit = "english";
+                                answered = true;
+                                break;
+                            default:
+                                unit = "";
+                                Console.WriteLine("That is not a valid unit system.");
+                                break;
+                        }
+                    } while (answered == false);
 
-                    }
                     Console.WriteLine("What is your gender? (Optional question, press enter to skip)");
                     gender = Console.ReadLine();
 
@@ -66,7 +71,7 @@ namespace ConsBMI
                     }
                     
 
-                    switch ((unit_input))
+                    switch (unit)
                     {
                         case "metric":
                             BMI = weight / Math.Pow((height / 100), 2);
