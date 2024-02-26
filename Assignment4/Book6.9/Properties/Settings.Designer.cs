@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BlankForm.Properties
+namespace Book6._9.Properties
 {
 
 
