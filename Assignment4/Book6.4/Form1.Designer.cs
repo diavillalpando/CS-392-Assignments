@@ -184,6 +184,7 @@
             this.partsTxtBox.Name = "partsTxtBox";
             this.partsTxtBox.Size = new System.Drawing.Size(102, 31);
             this.partsTxtBox.TabIndex = 0;
+            this.partsTxtBox.Text = "0";
             // 
             // laborTxtBox
             // 
@@ -191,6 +192,7 @@
             this.laborTxtBox.Name = "laborTxtBox";
             this.laborTxtBox.Size = new System.Drawing.Size(102, 31);
             this.laborTxtBox.TabIndex = 1;
+            this.laborTxtBox.Text = "0";
             // 
             // partsLbl
             // 
@@ -234,7 +236,7 @@
             // serviceOutput
             // 
             this.serviceOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.serviceOutput.Location = new System.Drawing.Point(294, 38);
+            this.serviceOutput.Location = new System.Drawing.Point(344, 38);
             this.serviceOutput.Name = "serviceOutput";
             this.serviceOutput.Size = new System.Drawing.Size(186, 38);
             this.serviceOutput.TabIndex = 0;
@@ -244,7 +246,7 @@
             // serviceDesc
             // 
             this.serviceDesc.AutoSize = true;
-            this.serviceDesc.Location = new System.Drawing.Point(101, 45);
+            this.serviceDesc.Location = new System.Drawing.Point(151, 45);
             this.serviceDesc.Name = "serviceDesc";
             this.serviceDesc.Size = new System.Drawing.Size(193, 25);
             this.serviceDesc.TabIndex = 1;
@@ -253,7 +255,7 @@
             // partsDesc
             // 
             this.partsDesc.AutoSize = true;
-            this.partsDesc.Location = new System.Drawing.Point(226, 102);
+            this.partsDesc.Location = new System.Drawing.Point(276, 102);
             this.partsDesc.Name = "partsDesc";
             this.partsDesc.Size = new System.Drawing.Size(68, 25);
             this.partsDesc.TabIndex = 3;
@@ -262,7 +264,7 @@
             // partsOutput
             // 
             this.partsOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.partsOutput.Location = new System.Drawing.Point(294, 95);
+            this.partsOutput.Location = new System.Drawing.Point(344, 95);
             this.partsOutput.Name = "partsOutput";
             this.partsOutput.Size = new System.Drawing.Size(186, 38);
             this.partsOutput.TabIndex = 2;
@@ -272,7 +274,7 @@
             // taxDesc
             // 
             this.taxDesc.AutoSize = true;
-            this.taxDesc.Location = new System.Drawing.Point(136, 158);
+            this.taxDesc.Location = new System.Drawing.Point(186, 158);
             this.taxDesc.Name = "taxDesc";
             this.taxDesc.Size = new System.Drawing.Size(158, 25);
             this.taxDesc.TabIndex = 5;
@@ -281,7 +283,7 @@
             // taxOutput
             // 
             this.taxOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.taxOutput.Location = new System.Drawing.Point(294, 151);
+            this.taxOutput.Location = new System.Drawing.Point(344, 151);
             this.taxOutput.Name = "taxOutput";
             this.taxOutput.Size = new System.Drawing.Size(186, 38);
             this.taxOutput.TabIndex = 4;
@@ -291,7 +293,7 @@
             // totalDesc
             // 
             this.totalDesc.AutoSize = true;
-            this.totalDesc.Location = new System.Drawing.Point(174, 212);
+            this.totalDesc.Location = new System.Drawing.Point(224, 212);
             this.totalDesc.Name = "totalDesc";
             this.totalDesc.Size = new System.Drawing.Size(120, 25);
             this.totalDesc.TabIndex = 7;
@@ -300,7 +302,7 @@
             // totalOutput
             // 
             this.totalOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.totalOutput.Location = new System.Drawing.Point(294, 205);
+            this.totalOutput.Location = new System.Drawing.Point(344, 205);
             this.totalOutput.Name = "totalOutput";
             this.totalOutput.Size = new System.Drawing.Size(186, 38);
             this.totalOutput.TabIndex = 6;
@@ -315,6 +317,7 @@
             this.calculateBtn.TabIndex = 8;
             this.calculateBtn.Text = "Calculate";
             this.calculateBtn.UseVisualStyleBackColor = true;
+            this.calculateBtn.Click += new System.EventHandler(this.calculateBtn_Click);
             // 
             // clearBtn
             // 
@@ -324,6 +327,7 @@
             this.clearBtn.TabIndex = 9;
             this.clearBtn.Text = "Clear";
             this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // Form1
             // 
