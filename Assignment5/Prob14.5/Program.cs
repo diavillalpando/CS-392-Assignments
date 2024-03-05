@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Prob14._5
 {
-    class DJIAData
+    class DJIAData // creating class for the dates
     {
         public string Date { get; set; }
         public double ClosingValue { get; set; }
@@ -16,7 +16,7 @@ namespace Prob14._5
         public double LowestValue { get; set; }
     }
 
-    class DJIAAnalyzer
+    class DJIAAnalyzer // reads the file for DJIA.csv and creating a list of the DJIAData objects 
     {
         private List<DJIAData> data;
 
@@ -46,7 +46,7 @@ namespace Prob14._5
 
         }
 
-        public void SearchClosingValue(double value)
+        public void SearchClosingValue(double value) // looks for and prints all of the dates that have a closing value greater than the parameter
         {
             Console.WriteLine($"\nHere are the dates for which the Closing Value is above {value}: ");
             foreach (var djiaData in data)
@@ -58,7 +58,7 @@ namespace Prob14._5
             }
         }
 
-        public void SearchFirstClosingValue(double value)
+        public void SearchFirstClosingValue(double value) // looks for the first date that has a closing value greater than the paramter and prints it
         {
             foreach (var djiaData in data)
             {
