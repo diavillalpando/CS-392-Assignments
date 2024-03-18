@@ -61,6 +61,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +69,7 @@
             // button26
             // 
             this.button26.Enabled = false;
+            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.Location = new System.Drawing.Point(338, 160);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(75, 30);
@@ -79,6 +81,7 @@
             // button25
             // 
             this.button25.Enabled = false;
+            this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.Location = new System.Drawing.Point(257, 160);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(75, 30);
@@ -90,6 +93,7 @@
             // button24
             // 
             this.button24.Enabled = false;
+            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.Location = new System.Drawing.Point(176, 160);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(75, 30);
@@ -101,6 +105,7 @@
             // button23
             // 
             this.button23.Enabled = false;
+            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Location = new System.Drawing.Point(94, 160);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(75, 30);
@@ -112,6 +117,7 @@
             // button22
             // 
             this.button22.Enabled = false;
+            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.Location = new System.Drawing.Point(13, 160);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 30);
@@ -123,6 +129,7 @@
             // button21
             // 
             this.button21.Enabled = false;
+            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.Location = new System.Drawing.Point(338, 128);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 30);
@@ -134,6 +141,7 @@
             // button20
             // 
             this.button20.Enabled = false;
+            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(257, 131);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 30);
@@ -145,6 +153,7 @@
             // button19
             // 
             this.button19.Enabled = false;
+            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.Location = new System.Drawing.Point(176, 131);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 30);
@@ -156,7 +165,8 @@
             // button18
             // 
             this.button18.Enabled = false;
-            this.button18.Location = new System.Drawing.Point(94, 128);
+            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Location = new System.Drawing.Point(95, 131);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 30);
             this.button18.TabIndex = 44;
@@ -167,7 +177,8 @@
             // button17
             // 
             this.button17.Enabled = false;
-            this.button17.Location = new System.Drawing.Point(13, 128);
+            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(14, 131);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 30);
             this.button17.TabIndex = 43;
@@ -178,6 +189,7 @@
             // button16
             // 
             this.button16.Enabled = false;
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(338, 99);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 30);
@@ -189,6 +201,7 @@
             // button15
             // 
             this.button15.Enabled = false;
+            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(257, 102);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 30);
@@ -200,6 +213,7 @@
             // button14
             // 
             this.button14.Enabled = false;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(175, 102);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 30);
@@ -211,7 +225,8 @@
             // button13
             // 
             this.button13.Enabled = false;
-            this.button13.Location = new System.Drawing.Point(94, 102);
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(94, 99);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 30);
             this.button13.TabIndex = 39;
@@ -222,7 +237,8 @@
             // button12
             // 
             this.button12.Enabled = false;
-            this.button12.Location = new System.Drawing.Point(13, 102);
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(13, 99);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 30);
             this.button12.TabIndex = 38;
@@ -233,6 +249,7 @@
             // button11
             // 
             this.button11.Enabled = false;
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(338, 70);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 30);
@@ -244,6 +261,7 @@
             // button10
             // 
             this.button10.Enabled = false;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(257, 70);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 30);
@@ -255,6 +273,7 @@
             // button9
             // 
             this.button9.Enabled = false;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(176, 70);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 30);
@@ -266,7 +285,8 @@
             // button8
             // 
             this.button8.Enabled = false;
-            this.button8.Location = new System.Drawing.Point(94, 73);
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(94, 70);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 30);
             this.button8.TabIndex = 34;
@@ -277,7 +297,8 @@
             // button7
             // 
             this.button7.Enabled = false;
-            this.button7.Location = new System.Drawing.Point(13, 73);
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(13, 70);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 30);
             this.button7.TabIndex = 33;
@@ -288,6 +309,7 @@
             // button6
             // 
             this.button6.Enabled = false;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(338, 41);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 30);
@@ -299,6 +321,7 @@
             // button5
             // 
             this.button5.Enabled = false;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(257, 41);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 30);
@@ -310,6 +333,7 @@
             // button4
             // 
             this.button4.Enabled = false;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(176, 41);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 30);
@@ -321,7 +345,8 @@
             // button3
             // 
             this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(95, 44);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(95, 41);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 30);
             this.button3.TabIndex = 29;
@@ -332,7 +357,8 @@
             // button2
             // 
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(14, 44);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(14, 41);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 30);
             this.button2.TabIndex = 28;
@@ -343,7 +369,8 @@
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(13, 15);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(13, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);
             this.button1.TabIndex = 27;
@@ -354,10 +381,10 @@
             // lblChoose
             // 
             this.lblChoose.AutoSize = true;
-            this.lblChoose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChoose.Location = new System.Drawing.Point(69, 127);
+            this.lblChoose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChoose.Location = new System.Drawing.Point(78, 96);
             this.lblChoose.Name = "lblChoose";
-            this.lblChoose.Size = new System.Drawing.Size(155, 25);
+            this.lblChoose.Size = new System.Drawing.Size(188, 29);
             this.lblChoose.TabIndex = 54;
             this.lblChoose.Text = "Choose a letter: ";
             // 
@@ -365,9 +392,9 @@
             // 
             this.lblDisplay.AutoSize = true;
             this.lblDisplay.Font = new System.Drawing.Font("MingLiU-ExtB", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisplay.Location = new System.Drawing.Point(561, 453);
+            this.lblDisplay.Location = new System.Drawing.Point(570, 422);
             this.lblDisplay.Name = "lblDisplay";
-            this.lblDisplay.Size = new System.Drawing.Size(111, 44);
+            this.lblDisplay.Size = new System.Drawing.Size(111, 43);
             this.lblDisplay.TabIndex = 55;
             this.lblDisplay.Text = "____";
             this.lblDisplay.Click += new System.EventHandler(this.lblDisplay_Click);
@@ -375,20 +402,20 @@
             // lblHint
             // 
             this.lblHint.AutoSize = true;
-            this.lblHint.Location = new System.Drawing.Point(69, 398);
+            this.lblHint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHint.Location = new System.Drawing.Point(105, 411);
             this.lblHint.Name = "lblHint";
-            this.lblHint.Size = new System.Drawing.Size(44, 16);
+            this.lblHint.Size = new System.Drawing.Size(0, 25);
             this.lblHint.TabIndex = 56;
-            this.lblHint.Text = "label3";
             // 
             // btnGetWord
             // 
             this.btnGetWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGetWord.Location = new System.Drawing.Point(642, 44);
+            this.btnGetWord.Location = new System.Drawing.Point(665, 29);
             this.btnGetWord.Name = "btnGetWord";
             this.btnGetWord.Size = new System.Drawing.Size(118, 40);
             this.btnGetWord.TabIndex = 57;
-            this.btnGetWord.Text = "Get Word";
+            this.btnGetWord.Text = "New Word";
             this.btnGetWord.UseVisualStyleBackColor = true;
             this.btnGetWord.Click += new System.EventHandler(this.btnGetWord_Click);
             // 
@@ -420,7 +447,7 @@
             this.panel1.Controls.Add(this.button15);
             this.panel1.Controls.Add(this.button17);
             this.panel1.Controls.Add(this.button16);
-            this.panel1.Location = new System.Drawing.Point(72, 181);
+            this.panel1.Location = new System.Drawing.Point(81, 150);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(429, 197);
             this.panel1.TabIndex = 58;
@@ -430,7 +457,7 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = global::Supplemental1.Properties.Resources.hangman_step1;
-            this.pictureBox1.Location = new System.Drawing.Point(581, 127);
+            this.pictureBox1.Location = new System.Drawing.Point(620, 96);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(247, 287);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -439,19 +466,31 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(396, 599);
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(429, 508);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(125, 52);
             this.btnExit.TabIndex = 60;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(80, 376);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 25);
+            this.label1.TabIndex = 61;
+            this.label1.Text = "Hint:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(932, 698);
+            this.ClientSize = new System.Drawing.Size(974, 584);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
@@ -503,6 +542,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label1;
     }
 }
 

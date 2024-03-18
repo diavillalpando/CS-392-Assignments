@@ -14,6 +14,7 @@ namespace Supplemental1
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,47 +29,50 @@ namespace Supplemental1
         string hint;
         char[] guessed;
         private int incorrectGuesses = 0;
-
-        class wordAndHint { 
+        class wordAndHint
+        {
             public string word { get; set; }
             public string hint { get; set; }
 
         }
 
-        private List<wordAndHint> words;
+        private List<wordAndHint> words= new List<wordAndHint>();
+
 
         private void loadWords()
         {
-            DataSet dataSet = new WordBankDataSet(); // Create an object of type WordBankDataSet
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\WordBank.mdf;Integrated Security=True";
+            string query = "SELECT * FROM WordBank";
 
-
-            // Check if the dataset contains any tables
-            if (dataSet.Tables.Count > 0)
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                DataTable dataTable = dataSet.Tables[0];
-                if (dataTable.Rows.Count > 0)
-                {
-                    // Iterate through each row in the table
-                    foreach (DataRow dr in dataTable.Rows)
-                    {
-                        // Extract word and hint from the current row
-                        string word = dr["Word"].ToString();
-                        string hint = dr["Hint"].ToString();
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                DataSet dataSet = new DataSet();
 
-                        // Create a new wordAndHint object and add it to the list
-                        words.Add(new wordAndHint { word = word, hint = hint });
-                    }
-                }
-                else
+                try
                 {
-                    MessageBox.Show("No rows found in the DataTable.");
+                    connection.Open();
+                    adapter.Fill(dataSet, "WordBank");
                 }
-            }
-            else
-            {
-                MessageBox.Show("The DataSet does not contain any tables.");
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+
+                // Use the dataset as needed
+                DataTable table = dataSet.Tables["WordBank"];
+                foreach (DataRow row in table.Rows)
+                {
+                    // Extract word and hint from the current row
+                    string word = row["Word"].ToString();
+                    string hint = row["Hint"].ToString();
+
+                    // Create a new wordAndHint object and add it to the list
+                    words.Add(new wordAndHint { word = word, hint = hint });
+                }
             }
         }
+    
 
 
 
@@ -115,6 +119,9 @@ namespace Supplemental1
                         button.Enabled = true;
                     }
                 }
+
+                pictureBox1.Image = Properties.Resources.hangman_step1;
+                incorrectGuesses = 0;
             }
             else
             {
@@ -208,6 +215,11 @@ namespace Supplemental1
         }
 
         private void lblDisplay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
