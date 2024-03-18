@@ -60,6 +60,7 @@
             this.btnGetWord = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnExit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -353,21 +354,23 @@
             // lblChoose
             // 
             this.lblChoose.AutoSize = true;
+            this.lblChoose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChoose.Location = new System.Drawing.Point(69, 127);
             this.lblChoose.Name = "lblChoose";
-            this.lblChoose.Size = new System.Drawing.Size(97, 16);
+            this.lblChoose.Size = new System.Drawing.Size(155, 25);
             this.lblChoose.TabIndex = 54;
-            this.lblChoose.Text = "Choose a letter";
+            this.lblChoose.Text = "Choose a letter: ";
             // 
             // lblDisplay
             // 
             this.lblDisplay.AutoSize = true;
             this.lblDisplay.Font = new System.Drawing.Font("MingLiU-ExtB", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisplay.Location = new System.Drawing.Point(545, 451);
+            this.lblDisplay.Location = new System.Drawing.Point(561, 453);
             this.lblDisplay.Name = "lblDisplay";
             this.lblDisplay.Size = new System.Drawing.Size(111, 44);
             this.lblDisplay.TabIndex = 55;
             this.lblDisplay.Text = "____";
+            this.lblDisplay.Click += new System.EventHandler(this.lblDisplay_Click);
             // 
             // lblHint
             // 
@@ -380,9 +383,10 @@
             // 
             // btnGetWord
             // 
-            this.btnGetWord.Location = new System.Drawing.Point(396, 50);
+            this.btnGetWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetWord.Location = new System.Drawing.Point(642, 44);
             this.btnGetWord.Name = "btnGetWord";
-            this.btnGetWord.Size = new System.Drawing.Size(91, 23);
+            this.btnGetWord.Size = new System.Drawing.Size(118, 40);
             this.btnGetWord.TabIndex = 57;
             this.btnGetWord.Text = "Get Word";
             this.btnGetWord.UseVisualStyleBackColor = true;
@@ -433,11 +437,22 @@
             this.pictureBox1.TabIndex = 59;
             this.pictureBox1.TabStop = false;
             // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(396, 599);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 60;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(932, 828);
+            this.ClientSize = new System.Drawing.Size(932, 698);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnGetWord);
@@ -487,6 +502,7 @@
         private System.Windows.Forms.Button btnGetWord;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
